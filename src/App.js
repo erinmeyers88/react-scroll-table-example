@@ -55,11 +55,13 @@ const tableProps = {
     {favorite: false, username: 'Han Solo', text: 'Laugh it up, fuzzball!', date: new Date(1990, 4, 7).toDateString()},
     {favorite: true, username: 'Yoda', text: 'Try not. Do—or do not. There is no try.', date: new Date(2005, 6, 12).toDateString()},
     {favorite: false, username: 'Leia Organa', text: 'Help me Obi-Wan Kenobi, you\'re my only hope.', date: new Date(2012, 1, 27).toDateString()}],
+  downIcon: <i className="fa fa-down"/>
   maxHeight: 150,
   noDataText: 'no data here',
   shaded: true,
   shadedColor: '#2AB2FF',
-  textColor: '#ffffff'
+  textColor: '#ffffff',
+  upIcon: <i className="fa fa-up"/>
 };
 
 class App extends Component {
